@@ -1,0 +1,9 @@
+@import "./assets/Navbar/Nav.css";
+@import "./assets/MainSection/MainSection.css";
+@import "./assets/SideNav/SideNav.css";
+@import "./assets/hambMenu/HambMenu.css";
+.App {
+  background-color: var(--gray-color);
+  font-family: var(--font-family);
+  position: relative;
+}
