@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 
-export function HambMenu() {
+export default function HambMenu() {
   const [navbar, isNavbar] = useState(true);
 
   const buttonOnClick = () => {
