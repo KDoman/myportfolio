@@ -1,11 +1,11 @@
 import { Link } from "react-scroll";
-import HambMenu from "../HambMenu/HambMenu";
+import { HamburgerMenu } from "../hambMenu/HambMenu";
 
 export function Navbar() {
   return (
     <div className="nav-container">
       <div className="nav-container_navigation">
-        <HambMenu></HambMenu>
+        <HamburgerMenu />
         <ul className="full-screen-ul">
           <li>
             <Link
